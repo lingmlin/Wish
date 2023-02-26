@@ -1,0 +1,618 @@
+.inputBackground {
+  background-image: url("../../resource/background3.png");
+  position: absolute;
+  width: 390px;
+  height: 756.92px;
+
+  .inputWishTitle {
+    /* 请输入你的愿望 */
+
+
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 52px;
+    top: 208px;
+
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #0F3A60;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    position: absolute;
+    width: 286px;
+    height: 235px;
+    resize: none;
+    margin-top: 240px;
+    margin-left: 52px;
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid #fbd632;
+    border-radius: 10px;
+    font-family: "PingFang HK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    scrollbar-width: none;
+    overflow: hidden;
+    color: #444444;
+    max-height: calc(1.5em * 7);
+  }
+
+
+  .inputWishDiv {
+    box-sizing: border-box;
+    position: absolute;
+    width: 286px;
+    height: 235px;
+    resize: none;
+    margin-top: 240px;
+    margin-left: 52px;
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid #fbd632;
+    border-radius: 10px;
+    font-family: "PingFang HK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #444444;
+
+  }
+
+  .wordinglimit {
+    /* 9/64 */
+
+    position: absolute;
+    width: 34px;
+    height: 19px;
+    left: 288px;
+    top: 438px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0F3A60;
+  }
+
+  .printWish {
+    box-sizing: border-box;
+    position: absolute;
+    width: 286px;
+    height: 50px;
+    left: 52px;
+    top: 550px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1.5px solid #333333;
+    border-radius: 10px;
+  }
+
+  .btnPrintWording {
+
+    /* 打印愿望 */
+
+
+    position: center;
+    width: 100px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+
+    font-family: 'PingFang HK';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #0F3A60;
+  }
+
+
+  .ChatGPTbtn {
+    /* 没有头绪？问问ChatGPT吧 */
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 35px;
+    top: 485px;
+    font-family: 'PingFang HK';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #0F3A60;
+  }
+
+  .ChatGPTbtn:hover {
+    text-decoration: underline;
+  }
+
+  .flower {
+    background-image: url("../../resource/flower.png");
+    position: absolute;
+    background-size: 100% 100%;
+    width: 74px;
+    height: 73px;
+    top: 500px;
+    left: 20px;
+  }
+
+  .back {
+    position: absolute;
+    width: 36px;
+    height: 25px;
+    left: 177px;
+    top: 620px;
+    font-family: "PingFang HK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .pop1 {
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 302px;
+    height: 387px;
+
+    .title {
+      background-image: url("../../resource/Group4.png");
+      background-size: 100% 100%;
+      width: 162px;
+      height: 77px;
+      line-height: 57px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: 70px;
+      margin-top: 70px;
+    }
+
+    .content {
+      margin: 0 auto;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+      /* or 180% */
+
+      text-align: center;
+
+      color: #333333;
+      line-height: 20px;
+      text-align: center;
+      height: 72px;
+      width: 160px;
+      padding-top: 40px;
+      padding-left: 21px;
+      padding-right: 21px;
+    }
+
+    .i_know {
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 16px;
+      line-height: 46px;
+      width: 266px;
+      height: 50px;
+      margin-left: 20px;
+      background: #ee8839;
+      border-radius: 10px;
+      border: #ffffff;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .later {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #ee8839;
+      margin-top: 20px;
+    }
+  }
+
+  .pop2 {
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 302px;
+    height: 387px;
+
+    .title {
+      background-image: url("../../resource/Group4.png");
+      background-size: 100% 100%;
+      width: 162px;
+      height: 77px;
+      line-height: 57px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: 70px;
+      margin-top: 70px;
+    }
+
+    .loading {
+      background-image: url("../../resource/printing.png");
+      background-size: 100% 100%;
+      width: 140px;
+      height: 20px;
+      text-align: center;
+      margin-left: 80px;
+      margin-top: 30px;
+    }
+
+    .printing {
+      background-image: url("../../resource/Loading.png");
+      background-size: 100% 100%;
+      width: 162px;
+      height: 5px;
+      text-align: center;
+      margin-left: 70px;
+      margin-top: 20px;
+    }
+  }
+
+  .pop3 {
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 302px;
+    height: 387px;
+
+    .title {
+      background-image: url("../../resource/finish.png");
+      background-size: 100% 100%;
+      width: 162px;
+      height: 77px;
+      line-height: 57px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: 70px;
+      margin-top: 70px;
+    }
+
+    .content {
+      margin: 0 auto;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+      /* or 180% */
+
+      text-align: center;
+
+      color: #333333;
+      line-height: 20px;
+      text-align: center;
+      height: 72px;
+      width: 160px;
+      padding-top: 40px;
+      padding-left: 21px;
+      padding-right: 21px;
+    }
+
+    .backToWelcome {
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 16px;
+      line-height: 46px;
+      width: 266px;
+      height: 50px;
+      margin-left: 20px;
+      background: #ee8839;
+      border-radius: 10px;
+      border: #ffffff;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+  }
+
+  .pop4 {
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+
+
+    margin: auto;
+    border-radius: 8px;
+
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+    /* Rectangle 14 */
+
+
+    width: 303px;
+    height: 330px;
+    left: 44px;
+    top: 425px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    .title {
+      background-image: url("../../resource/Group4.png");
+      background-size: 100% 100%;
+      width: 162px;
+      height: 77px;
+      line-height: 57px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: 70px;
+      margin-top: 70px;
+    }
+
+    .randomWish {
+      text-align: center;
+      margin: 0 auto;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+      /* or 180% */
+
+      text-align: center;
+
+      color: #333333;
+      line-height: 20px;
+      text-align: center;
+      height: 72px;
+      width: 160px;
+      padding-top: 40px;
+      padding-left: 21px;
+      padding-right: 21px;
+    }
+
+    .ChatGPTArea {
+      position: absolute;
+      width: 283px;
+      height: 120px;
+      left: 35px;
+      top: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      outline: 1px;
+      //border: 1px solid #ccc;
+
+      text-align: center;
+      max-width: 225px;
+      max-height: 4.3em;
+      font-size: 15px;
+      font-family: 'PingFang HK';
+      line-height: 1.5;
+      text-overflow: ellipsis;
+      color: #333333;
+
+      .leaf_left {
+        /* Vector */
+
+
+        position: absolute;
+        left: -0.03%;
+        right: 51.37%;
+        top: 27.16%;
+        bottom: 15.45%;
+
+        background: radial-gradient(40.84% 37.36% at 54.03% 54.53%, #8FBC72 0%, #7BC39C 100%);
+        transform: rotate(-31.11deg);
+      }
+
+      // .leaf_right {
+
+      //   /* Vector */
+
+
+      //   position: absolute;
+      //   left: 38.05%;
+      //   right: 14.71%;
+      //   top: 45.2%;
+      //   bottom: 9.95%;
+
+      //   background: linear-gradient(90deg, #7BBF89 0.64%, #7BBF89 7.31%, #9EC78D 93.08%, #9EC78D 95.94%);
+      //   transform: rotate(-31.11deg);
+
+      // }
+
+      // .leaf_down {
+      //   /* Vector */
+
+
+      //   position: absolute;
+      //   left: 38.04%;
+      //   right: 45.63%;
+      //   top: 54.85%;
+      //   bottom: 0%;
+
+      //   background: radial-gradient(277.09% 108.14% at 37.09% 144.77%, #8FBC72 0%, #A5CB88 52%, #A5CB88 100%);
+      // }
+
+      .ChatGPTText {
+        position: absolute;
+        text-align: center;
+        max-width: 225px;
+        max-height: 4.3em;
+        font-size: 15px;
+        font-family: 'PingFang HK';
+
+        line-height: 1.5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #333333;
+        // line-height: 1.5;
+        // max-width: 225px;
+        /* 15个字 x 15像素/字 = 225像素 */
+        /* 祝你一切顺利，幸福快乐！ */
+
+
+        // position: absolute;
+        // width: 271px;
+        // height: 36px;
+        // left: 61px;
+        // top: 453px;
+
+        // font-family: 'PingFang HK';
+        // font-style: normal;
+        // font-weight: 400;
+        // font-size: 20px;
+        // line-height: 36px;
+        // /* identical to box height, or 180% */
+
+        // color: #333333;
+
+
+      }
+    }
+
+
+
+    .useitBtn {
+      position: relative;
+      box-sizing: border-box;
+      font-size: 16px;
+      line-height: 46px;
+      width: 271px;
+      height: 50px;
+      top: 220px;
+      margin-left: 20px;
+      border-radius: 10px;
+      background: #0F3A60;
+
+      font-family: "Roboto";
+      font-style: normal;
+      line-height: 23px;
+
+      /* Rectangle 15 */
+      .useItWording {
+        /* 使用心愿 */
+
+
+        //position: absolute;
+        width: 250px;
+        height: 19px;
+        left: 200px;
+        top: 230px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 19px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+
+    }
+
+    .anotherBtn {
+      position: relative;
+      line-height: 23px;
+      color: #ee8839;
+      margin-top: 20px;
+
+      left: auto;
+      top: 220px;
+
+      .anotherWording {
+
+        /* 换一个 */
+        width: 303px;
+        height: 19px;
+        left: 10px;
+        top: 612px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 19px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #0F3A60;
+      }
+    }
+
+  }
+}
